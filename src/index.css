@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@700&family=Knewave&family=Yellowtail&display=swap");
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50;
+  padding: 50;
+  font-family: "Dancing Script", cursive;
+}
+
+.Game {
+  text-align: center;
+}
+
+.Game h1 {
+  font-family: "Cookie", cursive;
+  font-size: 600%;
+  color: rgb(252, 144, 189);
+}
+
+.Team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 150%;
+}
+
+.Team img {
+  max-width: 250px;
+  max-height: 250px;
+  margin: 20px;
+}
+
+.versus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 150px;
+}
+
+.versus h1 {
+  font-family: "Cookie", cursive;
+  font-size: 500%;
+  color: rgb(252, 144, 189);
+}
+
+.versus h3 {
+  font-family: "Yellowtail", cursive;
+  font-size: 200%;
+  font-weight: 50;
+  color: rgba(218, 18, 101, 0.815);
+}
+
+button {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 260px;
+  padding: 0.5rem;
+  background-color: rgba(174, 202, 255, 0.918);
+  border: 0;
+  border-radius: 20px;
+  font-size: 1.2em;
+  font-family: "Yellowtail", cursive;
+}
+
+.Scoreboard {
+  display: inline-block;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 450px;
+  padding: 0.5rem;
+  background-color: rgba(174, 202, 255, 0.438);
+  border: 0;
+  border-radius: 20px;
+  font-size: 120%;
+  font-family: "Dancing Script", cursive;
+}
